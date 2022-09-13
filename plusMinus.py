@@ -2,8 +2,6 @@ def plusMinus(arr):
     somatorioPos = 0
     somatorioZero = 0
     somatorioNegative = 0
-    print (somatorioPos)
-    print (somatorioNegative)
     for i in arr:
         if i > 0:
             somatorioPos += 1
@@ -14,4 +12,4 @@ def plusMinus(arr):
     allArray = [somatorioPos / len(arr), somatorioNegative / len(arr) , somatorioZero / len(arr)]
     return allArray
 
-    print(plusMinus([1,2,3,4,5]))
+print (plusMinus([-4, 3, -9, 0, 4, 1]))
