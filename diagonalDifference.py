@@ -1,5 +1,9 @@
 def diagonalDifference(arr):
-    sum1 = arr[0][0] + arr[1][1] + arr[2][2]
-    sum2 = arr[2][0] + arr[1][1] + arr[0][2]
-    allsum = (sum1 - sum2)
-    return abs(allsum)
+    sum1 = 0
+    sum2 = 0
+    leng = len(arr)
+    for i, row in enumerate(arr):
+        iminus = (leng -i) -1
+        sum1 += arr[i][i]
+        sum2 += arr[i][iminus]
+    return abs(sum1 - sum2)
