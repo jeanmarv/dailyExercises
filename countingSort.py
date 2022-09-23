@@ -7,7 +7,7 @@ def countingSort(arr):
         if len(array_hundred) > 99:
             break
     for i, row in enumerate(arr):
-        num_in_array = arr[i]
+        num_in_array = row
         array_hundred[num_in_array] += 1
     # for i, row in enumerate(array_hundred): //this part was not needed, it was the final sort
     #     while True:
