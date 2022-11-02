@@ -1,1 +1,1 @@
-# dailyExercises
+# daily logic exercises
