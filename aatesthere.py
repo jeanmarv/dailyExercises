@@ -1,16 +1,9 @@
-def isPP(n):
-    first_mult = 2
-    last_mult = 2
-    while first_mult < 30:
-        print(f"this is first {first_mult}")
-        print(f"this is last {last_mult}")
-        if first_mult**last_mult == n:
-            return [first_mult, last_mult]
-            break
-        last_mult += 1
-        if last_mult == 30:
-            first_mult += 1
-            last_mult = 2
-    return None
+def create_phone_number(n):
+    first = f'{n[0]}{n[1]}{n[2]}'
+    second = f'{n[3]}{n[4]}{n[5]}'
+    third = f'{n[6]}{n[7]}{n[8]}{n[9]}'
+    result = f'({first}) {second}-{third}'
+    return result
+print(create_phone_number([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]))
 
-print (isPP(484))
+# return "({}{}{}) {}{}{}-{}{}{}{}".format(*n)
