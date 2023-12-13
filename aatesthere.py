@@ -13,3 +13,5 @@ its friday, friday, gotta get down on friday
 saunday again
 
 new week
+
+tuesday
