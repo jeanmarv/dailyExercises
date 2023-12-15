@@ -17,3 +17,5 @@ new week
 tuesday
 
 wednesday
+
+quinta
