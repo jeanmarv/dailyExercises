@@ -21,3 +21,5 @@ wednesday
 quinta
 
 domingo
+
+segunda
