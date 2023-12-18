@@ -19,3 +19,5 @@ tuesday
 wednesday
 
 quinta
+
+domingo
