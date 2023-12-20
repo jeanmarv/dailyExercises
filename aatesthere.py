@@ -24,4 +24,4 @@ domingo
 
 segunda
 
-sos
+quartou
