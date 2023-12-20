@@ -23,3 +23,5 @@ quinta
 domingo
 
 segunda
+
+sos
